@@ -1,0 +1,41 @@
+/* Estilos para el contenedor del sidebar */
+.sidebar {
+  width: 200px; /* Ancho reducido del sidebar */
+  height: 100vh; /* Altura completa de la pantalla */
+  background-color: #333; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  position: fixed; /* Posición fija para mantener el sidebar en su lugar */
+  top: 0; /* Alinea al tope de la página */
+  left: 0; /* Alinea a la izquierda de la página */
+  padding-top: 20px; /* Espacio superior interno */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra del sidebar */
+  transition: width 0.3s ease; /* Transición suave para el ancho */
+}
+
+/* Estilos para el menú del sidebar */
+.sidebar-menu {
+  list-style: none; /* Sin viñetas en la lista */
+  padding: 0; /* Sin relleno */
+  margin: 0; /* Sin margen */
+}
+
+/* Estilos para los elementos del menú del sidebar */
+.sidebar-menu li {
+  margin: 10px 0; /* Espacio entre los elementos */
+}
+
+/* Estilos para los enlaces del menú del sidebar */
+.sidebar-menu li a {
+  color: white; /* Color de texto blanco */
+  text-decoration: none; /* Sin subrayado */
+  padding: 10px 15px; /* Relleno interno de los enlaces */
+  display: block; /* Muestra como bloque para toda el área */
+  border-radius: 4px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+}
+
+/* Efecto hover para los enlaces del menú del sidebar */
+.sidebar-menu li a:hover {
+  background-color: #575757; /* Color de fondo en hover */
+}
+

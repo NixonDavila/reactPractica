@@ -1,0 +1,58 @@
+/* Contenedor principal del formulario */
+.form-container {
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px; /* Espacio alrededor del formulario */
+    background-color: #f7f7f7; /* Fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  /* Título del formulario */
+  .form-container h2 {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  /* Grupo de campos del formulario */
+  .form-group {
+    margin-bottom: 15px; /* Espacio entre los campos */
+  }
+  
+  /* Etiquetas de los campos */
+  .form-group label {
+    display: block; /* Muestra como bloque */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Campos de entrada */
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Relleno interno */
+    border: 1px solid #ddd; /* Borde claro */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    box-sizing: border-box; /* Incluye relleno en el ancho total */
+  }
+  
+  /* Botón de envío */
+  .btn-submit {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Relleno interno */
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+  
+  /* Efecto hover para el botón de envío */
+  .btn-submit:hover {
+    background-color: #0056b3; /* Fondo azul oscuro en hover */
+  }
+  

@@ -1,0 +1,73 @@
+/* Contenedor para el formulario de registro */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa del viewport */
+    background-color: #f0f0f0; /* Fondo gris claro */
+  }
+  
+  /* Estilo para el formulario */
+  .register-form {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 40px; /* Espacio interior del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo para adaptabilidad */
+  }
+  
+  /* Estilo del título del formulario */
+  .register-form h2 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #333; /* Texto gris oscuro */
+    text-align: center; /* Centrar el título */
+  }
+  
+  /* Estilo del grupo de elementos del formulario */
+  .form-group {
+    margin-bottom: 20px; /* Espacio entre cada grupo de entrada */
+  }
+  
+  /* Estilo de las etiquetas (labels) */
+  .form-group label {
+    display: block; /* Asegura que la etiqueta tome todo el ancho */
+    margin-bottom: 8px; /* Espacio debajo de la etiqueta */
+    color: #555; /* Texto gris medio */
+    font-weight: 500; /* Texto un poco más negrita */
+  }
+  
+  /* Estilo de los campos de entrada (input) */
+  .form-group input {
+    width: 100%; /* Inputs de ancho completo */
+    padding: 10px; /* Espacio interior de los inputs */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+    font-size: 16px; /* Aumentar tamaño de fuente para mejor legibilidad */
+    outline: none; /* Eliminar contorno */
+    transition: border-color 0.3s ease; /* Transición suave para el foco */
+  }
+  
+  /* Efecto de foco en los campos de entrada */
+  .form-group input:focus {
+    border-color: #007bff; /* Borde azul al enfocar */
+  }
+  
+  /* Estilo del botón */
+  .btn-register {
+    width: 100%; /* Botón de ancho completo */
+    padding: 12px; /* Espacio interior del botón */
+    background-color: #007bff; /* Fondo azul */
+    color: #ffffff; /* Texto blanco */
+    border: none; /* Eliminar borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente más grande */
+    cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para hover */
+  }
+  
+  /* Efecto hover en el botón */
+  .btn-register:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+  }
+  

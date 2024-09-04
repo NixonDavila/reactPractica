@@ -1,0 +1,47 @@
+/* Contenedor principal de la tabla */
+.table-container {
+    margin: 20px auto; /* Centra la tabla con márgenes automáticos */
+    max-width: 800px; /* Ancho máximo para la tabla */
+    padding: 20px; /* Espacio alrededor del contenedor */
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilos de la tabla */
+  .user-table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsa los bordes */
+    margin-top: 20px; /* Espacio superior */
+  }
+  
+  /* Encabezado de la tabla */
+  .user-table thead th {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+    padding: 10px; /* Relleno interno */
+    text-align: left; /* Alineación a la izquierda */
+    border-bottom: 2px solid #0056b3; /* Borde inferior */
+  }
+  
+  /* Celdas del cuerpo de la tabla */
+  .user-table tbody td {
+    padding: 10px; /* Relleno interno */
+    border-bottom: 1px solid #ddd; /* Borde inferior */
+  }
+  
+  /* Renglones alternos del cuerpo de la tabla */
+  .user-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo claro para filas pares */
+  }
+  
+  /* Renglones alternos del cuerpo de la tabla */
+  .user-table tbody tr:nth-child(odd) {
+    background-color: #e6e6e6; /* Fondo ligeramente más oscuro para filas impares */
+  }
+  
+  /* Efecto hover para las filas de la tabla */
+  .user-table tbody tr:hover {
+    background-color: #d6e4f2; /* Fondo azul claro en hover */
+  }
+  
